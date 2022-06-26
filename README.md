@@ -8,3 +8,6 @@ This application/software will take your inputs such as the contact of the perso
 
 I have used two libraries in Python, *tkinter* library and *pywhatkit* library. Tkinter library is used to create interactive User Interface and Pywhatkit library is used to Automate WhatsApp. I have linked both the libraries to makeout the most out of them. 
 
+I hope this software will help you to automate WhatsApp for a easy life.
+
+Thank you
