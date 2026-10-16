@@ -1,13 +1,41 @@
-**Description about my project**
+# 💬 WhatsApp Message Scheduler & Automation (Tkinter GUI)
 
-This project was madee by Sparsh Agarwal (12th A) which was based on automation, or to be more exact, _WhatsApp Automation_.
+A desktop GUI application built with **Python**, **Tkinter**, and **PyWhatKit** that schedules and sends automated WhatsApp messages at a user-specified time (24-hour format) via WhatsApp Web.
 
-This application/software will take your inputs such as the contact of the person, the message you want to send and the time you want to send. Then, the contact number you have provided the message will be automatically send to the person at the specific time you've mentioned.
+---
 
-*Note : You must have WhatsApp Web signed in on your web browser otherwise this software is of no use.*
+## 📂 Repository Structure
 
-I have used two libraries in Python, *tkinter* library and *pywhatkit* library. Tkinter library is used to create interactive User Interface and Pywhatkit library is used to Automate WhatsApp. I have linked both the libraries to makeout the most out of them. 
+- `project.py`: Tkinter GUI interface and `pywhatkit.sendwhatmsg` scheduler integration.
+- `README.md`: Project documentation and setup guide.
 
-I hope this software will help you to automate WhatsApp for a easy life.
+---
 
-Thank you
+## ✨ Features
+
+- **Graphical Scheduling Interface**: Enter the recipient's phone number (with country code), message body, target hour (24-hour format), and minute in a clean Tkinter window.
+- **Automated Browser Dispatch**: Uses `pywhatkit.sendwhatmsg()` to open WhatsApp Web in your default browser and deliver the message automatically at the scheduled time.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Ensure you are signed into **WhatsApp Web** on your default web browser.
+- Install `pywhatkit`:
+  ```bash
+  pip install pywhatkit
+  ```
+
+### Run the Application
+```bash
+git clone https://github.com/sparsh0106/WhatsApp-Automation-With-Tkinter-UI.git
+cd WhatsApp-Automation-With-Tkinter-UI
+python project.py
+```
+
+---
+
+## 👤 Author
+
+**Sparsh Agarwal** — [GitHub](https://github.com/sparsh0106)
